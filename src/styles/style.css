@@ -58,6 +58,7 @@ section h2 {
 section {
     padding: 20px;
     margin: 3px;
+    text-align: center;
     background: #61e9e9;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
