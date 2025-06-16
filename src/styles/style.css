@@ -9,7 +9,28 @@ header {
     background: #35424a;
     color: #ffffff;
     padding: 20px 0;
+    margin: 03px;
     text-align: center;
+    background-image: url('../images/background_header.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px; /* Adjust height as needed */
+    position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -36,8 +57,8 @@ section h2 {
 
 section {
     padding: 20px;
-    margin: 20px;
-    background: #ffffff;
+    margin: 3px;
+    background: #61e9e9;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -45,7 +66,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
+    background: #354a4a;
     color: #ffffff;
     position: relative;
     bottom: 0;
